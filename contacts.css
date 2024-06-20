@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 201, 201);
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #333; /* Adjust as needed */
+}
+
+.header nav a img {
+    height: 50px; /* Adjust as needed */
+}
+
+.header nav .brand-name {
+    color: #ffffff; /* Adjust as needed */
+    font-size: 20px; /* Adjust as needed */
+    margin-left: 10px; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.header nav .fa {
+    display: none;
+}
+
+.header nav .nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.header nav .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav .nav-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header nav .nav-links ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Adjust as needed */
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.header nav .nav-links ul li a:hover {
+    background: #575757; /* Adjust as needed */
+}
+
+.header .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header .text-box .hero-btn {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 30px;
+    background: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.image-item {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Adjusted image styles with shadow */
+.adjusted-image {
+    max-width: 20%; /* Adjust this value to make the images smaller */
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.location {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.location h2 {
+    font-size: 24px;
+    color: #000000; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+.location p a {
+    font-size: 18px;
+    color: #000000; /* Adjust as needed */
+    text-decoration: none;
+}
+
+.location p a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
